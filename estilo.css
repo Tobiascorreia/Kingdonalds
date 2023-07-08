@@ -1,0 +1,214 @@
+body {
+    margin: 0 auto;
+    max-width: 80%;
+    width: 100%;
+    background-color: rgb(56, 56, 56);
+    color: aliceblue;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    background-color:rgb(134, 134, 134);
+}
+.busca {
+    position: relative;
+    float: right;
+    background-color: gray;
+    margin: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px black;
+    color: black;}
+
+
+    .busca button:hover{
+    border: none;
+    background-color: rgb(63, 61, 61);
+    font-weight: bold;
+    color: rgb(46, 46, 46); 
+    }
+
+.busca button {
+    /*border: none;
+    background-color:gray;
+    font-weight: bold;
+    color: gray; */ 
+    background-image: url(../img/busca.png);
+    background-repeat:no-repeat;
+    border: none;
+    width: 20px;
+    height: 20px;
+    text-indent: -99999px;
+    background-color: gray;
+}
+
+/*inicio menu horizontal*/
+
+
+
+.menu_opcoes {
+    position: absolute;
+     bottom: 0;
+    right: 10px;
+}
+.menu_opcoes ul {
+    list-style: none;
+    margin: 0;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    padding: 0;
+    font-size: 16px;
+    background-color: rgb(100, 100, 100);
+    color: aliceblue
+}
+
+.menu_opcoes ul li {
+    display: inline;
+    margin-left: 5px;
+}
+.menu_opcoes li:last-child {
+    border-right: none;
+}
+     
+
+ .menu_opcoes a {
+    color: rgb(0, 0, 0) ;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+ }
+ .menu_opcoes li a:hover{
+   /* background-color:rgb(187, 187, 184);*/
+    color: rgb(10, 10, 10);
+    
+ }
+ 
+/*fim menu horizontal*/
+
+/*inicio corpo do site*/
+.corpo{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(97, 96, 96);
+
+}
+
+/*fim do corpo do site */
+
+
+.menu {
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 300px;
+    background-color: rgb(83, 83, 83);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform:uppercase ;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    transform: rotate(-10deg);
+}
+
+
+.destaque {
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 70%;
+    height: 300px;
+    background-color: rgb(70, 70, 70);
+    background-image: url(../img/food3.png);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu li{
+    background-color: aliceblue;
+    margin-bottom: 2px;
+    padding: 5px 10px;
+}
+ .menu ul{
+    list-style-type: none;
+ }
+.menu li :hover{
+    background-color: rgb(187, 187, 187);
+    color: rgb(82, 99, 245);
+    margin-bottom: 2px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.fundo{
+    background-color: rgb(65, 65, 65);
+}
+
+figure {
+    padding: 15px;    border: 2px solid rgb(10, 10, 10);
+    margin: 10px;
+    background-color: rgb(117, 117, 117);
+    border: 2px solid rgb(7, 6, 6);
+    text-align: center;  
+}
+figcaption{
+    margin-top: 10px;
+    font-style: italic;
+}
+.matriz {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    background-color: rgb(141, 141, 141);
+}
+.funcionarios{
+    float: right;
+    margin: 0 0 10px;
+    width: 500px;
+}
+
+
+footer {
+    background-color: rgb(126, 123, 123);
+    clear: both;
+}
+
+footer img {
+    width: 10%;
+}
+/*funcionarios img{
+    width:30%;
+}*/
+
+.social{
+    position: relative;
+    float: right;
+    list-style: none;
+}
+
+.social li {
+    float: left;
+    margin-left: 20px;
+}
+
+.social a {
+    height: 32px;
+    width: 32px;
+    display: block;
+    text-indent: -99999999999px;
+}
+
+.social a[href*="http://localhost/responsivel/guia.php"] {
+    background-image: url(../img/facebook.png);
+}
+.social a[href*="twiter.com"] {
+    background-image: url(../img/twitter.png);
+}
